@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.firebasetest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/eb99f127dfd645ee11209266278a8c61/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/eb99f127dfd645ee11209266278a8c61/firebase-database-19.2.0/AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:7:5-25:19
+18        android:allowBackup="true"
+18-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/46987fcfc10f80cc3bd074038da3503f/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:10:9-43
+22        android:label="Dota 2 Hero Index"
+22-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:11:9-42
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:14:9-40
+27        android:usesCleartextTraffic="true" >
+27-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:8:9-44
+28        <activity android:name="com.example.firebasetest.MainActivity" >
+28-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:15:9-21:20
+28-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:15:19-47
+29            <intent-filter>
+29-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:16:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:17:17-69
+30-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:19:17-77
+32-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.firebasetest.IconTableActivity" />
+35-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:22:9-64
+35-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:22:19-52
+36        <activity android:name="com.example.firebasetest.HeroInfoActivity" />
+36-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:23:9-63
+36-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:23:19-51
+37        <activity android:name="com.example.firebasetest.SignupActivity" />
+37-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:24:9-61
+37-->/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/src/main/AndroidManifest.xml:24:19-49
+38        <activity
+38-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+39            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+39-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+40            android:excludeFromRecents="true"
+40-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+41            android:exported="true"
+41-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+42            android:launchMode="singleTask"
+42-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
+43            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+43-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
+44            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+44-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+45
+46        <service
+46-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+47            android:name="com.google.firebase.components.ComponentDiscoveryService"
+47-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:34:13-84
+48            android:directBootAware="true"
+48-->[com.google.firebase:firebase-common:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/5a20c2fff232614892f3958a9df8bd1c/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
+50            <meta-data
+50-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
+51                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+51-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-auth:19.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/ea7fd9e1777c16bf1c5799a673ea907b/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-database:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/eb99f127dfd645ee11209266278a8c61/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+54                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+54-->[com.google.firebase:firebase-database:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/eb99f127dfd645ee11209266278a8c61/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-database:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/eb99f127dfd645ee11209266278a8c61/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+56        </service>
+57
+58        <provider
+58-->[com.squareup.picasso:picasso:2.71828] /Users/jack/.gradle/caches/transforms-2/files-2.1/53b87dd1b63d6ac60ec24f7e4d25476f/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+59            android:name="com.squareup.picasso.PicassoProvider"
+59-->[com.squareup.picasso:picasso:2.71828] /Users/jack/.gradle/caches/transforms-2/files-2.1/53b87dd1b63d6ac60ec24f7e4d25476f/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+60            android:authorities="com.example.firebasetest.com.squareup.picasso"
+60-->[com.squareup.picasso:picasso:2.71828] /Users/jack/.gradle/caches/transforms-2/files-2.1/53b87dd1b63d6ac60ec24f7e4d25476f/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+61            android:exported="false" />
+61-->[com.squareup.picasso:picasso:2.71828] /Users/jack/.gradle/caches/transforms-2/files-2.1/53b87dd1b63d6ac60ec24f7e4d25476f/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/bb4e4052ab3e29768bd96b4b931a9d1d/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/bb4e4052ab3e29768bd96b4b931a9d1d/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/bb4e4052ab3e29768bd96b4b931a9d1d/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.1.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/bb4e4052ab3e29768bd96b4b931a9d1d/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+67
+68        <provider
+68-->[com.google.firebase:firebase-common:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/5a20c2fff232614892f3958a9df8bd1c/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+69            android:name="com.google.firebase.provider.FirebaseInitProvider"
+69-->[com.google.firebase:firebase-common:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/5a20c2fff232614892f3958a9df8bd1c/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+70            android:authorities="com.example.firebasetest.firebaseinitprovider"
+70-->[com.google.firebase:firebase-common:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/5a20c2fff232614892f3958a9df8bd1c/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+71            android:exported="false"
+71-->[com.google.firebase:firebase-common:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/5a20c2fff232614892f3958a9df8bd1c/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+72            android:initOrder="100" />
+72-->[com.google.firebase:firebase-common:19.2.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/5a20c2fff232614892f3958a9df8bd1c/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:17.0.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/6684a0a5db7fdd41d6b42ebd9a3005b6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:17.0.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/6684a0a5db7fdd41d6b42ebd9a3005b6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:17.0.0] /Users/jack/.gradle/caches/transforms-2/files-2.1/6684a0a5db7fdd41d6b42ebd9a3005b6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+77    </application>
+78
+79</manifest>

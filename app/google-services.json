@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413754765383",
+    "firebase_url": "https://sloanej-fall-2019.firebaseio.com",
+    "project_id": "sloanej-fall-2019",
+    "storage_bucket": "sloanej-fall-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413754765383:android:52239e8719106f45b44162",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413754765383-d00o2uppcfgqdki3380nfngeubes5q80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpRz0BklQtkWT8kjTmeW0AUXfcebNwB2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413754765383-d00o2uppcfgqdki3380nfngeubes5q80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

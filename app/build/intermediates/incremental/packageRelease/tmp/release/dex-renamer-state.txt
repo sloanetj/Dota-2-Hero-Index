@@ -1,0 +1,4 @@
+#Thu Dec 12 12:12:03 EST 2019
+base.0=/Users/jack/AndroidStudioProjects/project-2-bring-your-own-idea-dota-2-stats-hub/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

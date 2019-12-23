@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Dota2 Hero Index</string>
+    <string name="title_activity_icons">Heroes</string>
+
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="remember">Save Credentials</string>
+
+    <string name="localized_name">Anti-Mage</string>
+    <string name="primary_attr">Primary Attribute</string>
+    <string name="attack_type">Attack Type</string>
+    <string name="roles">Roles</string>
+    <string name="base_health">Base Health</string>
+    <string name="base_health_regen">Base Health Regen</string>
+    <string name="base_mana">Base Mana</string>
+    <string name="base_mana_regen">Base Mana Regen</string>
+    <string name="base_armor">Base Armor</string>
+    <string name="base_mr">Base MR</string>
+    <string name="base_attack_min">Base Attack Min</string>
+    <string name="base_attack_max">Base Attack Max</string>
+    <string name="base_str">Base Strength</string>
+    <string name="base_agi">Base Agility</string>
+    <string name="base_int">Base Intelligence</string>
+    <string name="str_gain">Strength Gain</string>
+    <string name="agi_gain">Agility Gain</string>
+    <string name="int_gain">Intelligence Gain</string>
+    <string name="attack_range">Attack Range</string>
+    <string name="projectile_speed">Projectile Speed</string>
+    <string name="attack_rate">Attack Rate</string>
+    <string name="move_speed">Movement Speed</string>
+    <string name="turn_rate">Turn Rate</string>
+
+    <string name="hero_info_label">Wraith King</string>
+    <string name="player_tag">Top Player:</string>
+    <string name="player">Loafus Cromwell</string>
+    <string name="score_tag">Hero Score:</string>
+    <string name="score">9999.999</string>
+    <string name="play_time_tag">Play Time(hours):</string>
+    <string name="play_time">12173</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Index des héros Dota2</string>
+    <string name="title_activity_icons">Heroes</string>
+
+
+    <string name="login">S\'identifier</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="password_confirm">Confirmez le mot de passe</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="remember">N\'oubliez pas les informations d\'identification</string>
+
+    <string name="localized_name">Anti-Mage</string>
+    <string name="primary_attr">Attribut principal</string>
+    <string name="attack_type">Type d\'attaque</string>
+    <string name="roles">Rôles</string>
+    <string name="base_health">Santé de base</string>
+    <string name="base_health_regen">Régénération de la santé</string>
+    <string name="base_mana">Mana de base</string>
+    <string name="base_mana_regen">Régénération de mana</string>
+    <string name="base_armor">Armure de base</string>
+    <string name="base_mr">MR de base</string>
+    <string name="base_attack_min">Attaque de base minimum</string>
+    <string name="base_attack_max">Base Attack maximum</string>
+    <string name="base_str">Force de base</string>
+    <string name="base_agi">Base Agility</string>
+    <string name="base_int">Agilité de base</string>
+    <string name="str_gain">Gain de force</string>
+    <string name="agi_gain">Gain d\'agilité</string>
+    <string name="int_gain">Gain d\'intelligence</string>
+    <string name="attack_range">Portée d\'attaque</string>
+    <string name="projectile_speed">Vitesse du projectile</string>
+    <string name="attack_rate">Taux d\'attaque</string>
+    <string name="move_speed">Vitesse de mouvement</string>
+    <string name="turn_rate">Taux de rotation</string>
+
+    <string name="hero_info_label">Wraith King</string>
+    <string name="player_tag">Top Player:</string>
+    <string name="player">Loafus Cromwell</string>
+    <string name="score_tag">Hero Score:</string>
+    <string name="score">9999.999</string>
+    <string name="play_time_tag">Play Time(hours):</string>
+    <string name="play_time">12173</string>
+</resources>
